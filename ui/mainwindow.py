@@ -46,7 +46,7 @@ class MainWindow(QMainWindow):
 
         # 添加带图标的列表项
         self.addToolItem(toolList, "输入数据", "resources/icons/input_data.png")
-        self.addToolItem(toolList, "Preprocessing", "path/to/preprocessing_icon.png")
+        self.addToolItem(toolList, "预处理", "resources/icons/preprocess.png")
         self.addToolItem(toolList, "Model", "path/to/model_icon.png")
         self.addToolItem(toolList, "Evaluation", "path/to/evaluation_icon.png")
 
